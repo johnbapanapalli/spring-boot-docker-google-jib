@@ -35,7 +35,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
+			<!--<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.1.4</version>
@@ -44,7 +44,7 @@
 						<image>docker.to/learnkuberdock/spring-boot-docker-google-jib</image>
 					</to>
 				</configuration>
-			</plugin>
+			</plugin>-->
 		</plugins>
 		<finalName>spring-boot-docker-google-jib</finalName>
 	</build>
